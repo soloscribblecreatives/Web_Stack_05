@@ -1,61 +1,99 @@
-*{
+* {
 	margin: 0px;
 	padding: 0px;
 }
 
-.s1_1 {
+.background {
 	position: absolute;
-	width: 1280px;
-	height: 726px;
+	width: 1024px;
+	height: 768px;
 	z-index: 1;
 }
 
-.s1_2 {
+.takeCover {
 	position: absolute;
-  left: 50px;
-  top: 154px;
-  width: 974px;
-  height: 399px;
-	animation: fadeInRight 0.5s;
-	animation-delay: 0s;
-	animation-fill-mode: both;
-	z-index: 5;
-}
-
-.s1_3 {
-	position: absolute;
-  left: 390px;
-  top: 587px;
-  width: 556px;
-  height: 98px;
-	animation: zoomIn 0.3s;
-	animation-delay: 0.3s;
-	animation-fill-mode: both;
-	z-index: 5;
-}
-
-.s1_4 {
-	position: absolute;
-  left: 103px;
-  top: 446px;
-  width: 105px;
+  left: 0px;
+  top: 639px;
+  width: 76px;
   height: 54px;
-	animation: fadeInDownSmall 0.5s;
-	animation-delay: 0.6s;
-	animation-fill-mode: both;
-	display: none;
-	z-index: 5;
+	z-index: 10;
 }
 
-.s1_5 {
+.hit_1, .hit_2, .hit_3, .hit_4, .hit_5, .hit_6, .hit_7  {
+  position: absolute;
+  width: 1024px;
+  height: 768px;
+  display: none;
+  z-index: 15;
+}
+
+.hit_pop1 {
 	position: absolute;
-  left: 270px;
-  top: 272px;
-  width: 155px;
-  height: 155px;
-	animation: bounceIn 0.3s;
-	animation-delay: 1s;
-	animation-fill-mode: both;
+  left: 0px;
+  top: 258px;
+  width: 512px;
+  height: 473px;
+	z-index: 10;
+}
+
+.hit_pop2 {
+	position: absolute;
+  left: 512px;
+  top: 258px;
+  width: 512px;
+  height: 473px;
+	z-index: 10;
+}
+
+.hit_pop3 {
+	position: absolute;
+  left: 368px;
+  top: 434px;
+  width: 140px;
+  height: 186px;
+	z-index: 10;
+}
+
+.hit_pop4 {
+	position: absolute;
+  left: 513px;
+  top: 503px;
+  width: 140px;
+  height: 186px;
+	z-index: 10;
+}
+
+.hit_pop5 {
+	position: absolute;
+  left: 659px;
+  top: 435px;
+  width: 140px;
+  height: 186px;
+	z-index: 10;
+}
+
+.hit_pop6 {
+	position: absolute;
+  left: 805px;
+  top: 586px;
+  width: 140px;
+  height: 105px;
+	z-index: 10;
+}
+
+.hit_pop7 {
+	position: absolute;
+  left: 805px;
+  top: 479px;
+  width: 140px;
+  height: 105px;
+	z-index: 10;
+}
+
+.hit_close1 {
+	position: absolute;
+	width: 1024px;
+	height: 768px;
 	display: none;
-	z-index: 5;
+	z-index: 20;
 }
