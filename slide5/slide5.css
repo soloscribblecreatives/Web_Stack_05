@@ -1,0 +1,120 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+.s5_1 {
+	position: absolute;
+	width: 1080px;
+	height: 810px;
+	z-index: 1;
+}
+
+.s5_vid1 {
+  position: absolute;
+  left: 243px;
+  top: 271px;
+  width: 595px;
+  height: 338px;
+  z-index: 80;
+}
+
+.s5_2 {
+	position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 190px;
+  height: 140px;
+	animation: slideInUp 0.5s;
+	animation-delay: 0.5s;
+	animation-fill-mode: both;
+	z-index: 3;
+}
+
+.s5_2_wrap {
+	position: absolute;
+  left: 204px;
+  top: 613px;
+  width: 190px;
+  height: 140px;
+  overflow: hidden;
+	z-index: 4;
+}
+
+.s5_3 {
+	position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 117px;
+  height: 128px;
+	animation: slideInUp 0.5s;
+	animation-delay: 1s;
+	animation-fill-mode: both;
+	z-index: 2;
+}
+
+.s5_3_wrap {
+	position: absolute;
+  left: 487px;
+  top: 613px;
+  width: 117px;
+  height: 128px;
+    overflow: hidden;
+	z-index: 4;
+}
+
+.s5_4 {
+	position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 153px;
+  height: 138px;
+	animation: slideInUp 0.5s;
+	animation-delay: 1.5s;
+	animation-fill-mode: both;
+	z-index: 2;
+}
+
+.s5_4_wrap {
+	position: absolute;
+  left: 703px;
+  top: 613px;
+  width: 153px;
+  height: 138px;
+    overflow: hidden;
+	z-index: 4;
+}
+
+
+@-webkit-keyframes fadeInDownSmall {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -25%, 0);
+    transform: translate3d(0, -25%, 0);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@keyframes fadeInDownSmall {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -25%, 0);
+    transform: translate3d(0, -25%, 0);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+.fadeInDownSmallSmall {
+  -webkit-animation-name: fadeInDownSmall;
+  animation-name: fadeInDownSmall;
+}

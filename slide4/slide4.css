@@ -1,0 +1,236 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+.s4_1 {
+	position: absolute;
+	width: 1080px;
+	height: 810px;
+	z-index: 1;
+}
+
+.s4_2 {
+	position: absolute;
+  left: 101px;
+  top: 238px;
+  width: 256px;
+  height: 492px;
+	animation: fadeInRightBig 1s;
+	animation-delay: 0s;
+	animation-fill-mode: both;
+	z-index: 5;
+}
+
+.s4_3 {
+	position: absolute;
+  left: 383px;
+  top: 248px;
+  width: 634px;
+  height: 37px;
+	animation: fadeInUpBig 0.5s;
+	animation-delay: 1s;
+	animation-fill-mode: both;
+	z-index: 5;
+}
+
+.s4_4 {
+	position: absolute;
+  left: 398px;
+  top: 319px;
+  width: 126px;
+  height: 158px;
+	animation: backInRight 1s;
+	animation-delay: 1.5s;
+	animation-fill-mode: both;
+	z-index: 5;
+}
+
+.s4_5 {
+	position: absolute;
+  left: 562px;
+  top: 318px;
+  width: 128px;
+  height: 157px;
+	animation: backInRight 1s;
+	animation-delay: 2s;
+	animation-fill-mode: both;
+	z-index: 5;
+}
+
+.s4_6 {
+	position: absolute;
+  left: 737px;
+  top: 317px;
+  width: 117px;
+  height: 158px;
+	animation: backInRight 1s;
+	animation-delay: 2.5s;
+	animation-fill-mode: both;
+	z-index: 5;
+}
+
+.s4_7 {
+	position: absolute;
+  left: 895px;
+  top: 316px;
+  width: 121px;
+  height: 159px;
+	animation: backInRight 1s;
+	animation-delay: 3s;
+	animation-fill-mode: both;
+	z-index: 5;
+}
+
+.s4_8 {
+	position: absolute;
+  left: 383px;
+  top: 296px;
+  width: 39px;
+  height: 39px;
+	animation: flashLong 2s infinite;
+	animation-delay: 1.5s;
+	animation-fill-mode: both;
+	z-index: 2;
+}
+
+.s4_9 {
+	position: absolute;
+  left: 384px;
+  top: 511px;
+  width: 629px;
+  height: 155px;
+	animation: zoomInDown 1s;
+	animation-delay: 4s;
+	animation-fill-mode: both;
+	z-index: 2;
+}
+
+.s4_10 {
+	position: absolute;
+  left: 266px;
+  top: 628px;
+  width: 103px;
+  height: 77px;
+	animation: swing 2s infinite;
+	animation-delay: 5s;
+	animation-fill-mode: both;
+	z-index: 2;
+}
+
+.nodeds {
+  position: absolute;
+  left: 803px;
+  top: 0px;
+  width: 127px;
+  height: 37px;
+  z-index: 105;
+}
+
+.nodeg {
+  position: absolute;
+  left: 937px;
+  top: 0px;
+  width: 127px;
+  height: 37px;
+  z-index: 106;
+}
+
+.s4_pop1 {
+	position: absolute;
+	height: 100px;
+	width: 150px;
+	right: 0px;
+	bottom: 0px;
+	z-index: 15;
+}
+
+.s4_c1ose1 {
+	position: absolute;
+	width: 1024px;
+	height: 768px;
+	display: none;
+	z-index: 20;
+}
+
+
+
+@keyframes flipInXFlash {
+  from {
+    -webkit-transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
+    transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+    opacity: 0;
+  }
+
+  40% {
+    -webkit-transform: perspective(400px) rotate3d(1, 0, 0, -5deg);
+    transform: perspective(400px) rotate3d(1, 0, 0, -5deg);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+
+  60% {
+    -webkit-transform: perspective(400px) rotate3d(1, 0, 0, 5deg);
+    transform: perspective(400px) rotate3d(1, 0, 0, 5deg);
+    opacity: 1;
+  }
+
+  80% {
+    -webkit-transform: perspective(400px) rotate3d(1, 0, 0, -1deg);
+    transform: perspective(400px) rotate3d(1, 0, 0, -1deg);
+  }
+
+  to {
+    -webkit-transform: perspective(400px);
+    transform: perspective(400px);
+	opacity: 1;
+  }
+	70%, 80%, 90% {opacity: 0;}
+	65%, 75%, 85%, 95% {opacity: 1;}
+}
+
+
+@keyframes flashLong {
+  0%,  100% {
+    opacity: 0;
+  }
+
+  25%, 50%, 75% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeInDownSmall {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -25%, 0);
+    transform: translate3d(0, -25%, 0);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@keyframes fadeInDownSmall {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -25%, 0);
+    transform: translate3d(0, -25%, 0);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+.fadeInDownSmallSmall {
+  -webkit-animation-name: fadeInDownSmall;
+  animation-name: fadeInDownSmall;
+}
