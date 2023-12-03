@@ -3933,8 +3933,8 @@
 }
 @-webkit-keyframes slideInUp {
   from {
-    -webkit-transform: translate3d(0, 130%, 0);
-    transform: translate3d(0, 130%, 0);
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
     visibility: visible;
   }
 
@@ -3945,8 +3945,8 @@
 }
 @keyframes slideInUp {
   from {
-    -webkit-transform: translate3d(0, 130%, 0);
-    transform: translate3d(0, 130%, 0);
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
     visibility: visible;
   }
 
