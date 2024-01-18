@@ -251,25 +251,25 @@ currentSlide();
 var selectedContentPath='';
 switch(pg_id){
 	case 1:
-	content='<link rel="stylesheet" type="text/css" href="slide1/slide1.css" media="screen"/><div class="background"><img src="slide1/1.jpg" width="1024" height="768" alt=""></div>';
+	content='<link rel="stylesheet" type="text/css" href="slide1/slide1.css" media="screen"/><div class="s1_1"><img src="slide1/s1_1.png" width="1024" height="768" alt=""/></div><div class="s1_2"><img src="slide1/s1_2.png"/></div><div class="s1_3"><img src="slide1/s1_3.png"/></div>';
 	break;
 	case 2:
-	content='<link rel="stylesheet" type="text/css" href="slide1/slide1.css" media="screen"/><div class="background"><img src="slide2/1.jpg" width="1024" height="768" alt=""></div><div class="hit_1"><img src="slide2/pop1.png" width="1024" height="768" alt=""/></div><div class="hit_pop1" onclick="hit_pop1()"></div><div class="hit_2"><img src="slide2/pop2.png" width="1024" height="768" alt=""/></div><div class="hit_pop2" onclick="hit_pop2()"></div><div class="hit_close1" onclick="hit_close1()"></div>';
+	content='<link rel="stylesheet" type="text/css" href="slide2/slide2.css" media="screen"/><div class="s1_1"><img src="slide2/s1_1.png" width="1024" height="768" alt=""/></div><div class="s1_2"><img src="slide2/s1_2.png"/></div>';
 	break;
 	case 3:
-	content='<link rel="stylesheet" type="text/css" href="slide1/slide1.css" media="screen"/><div class="background"><img src="slide3/1.jpg" width="1024" height="768" alt=""></div><div class="hit_1"><img src="slide3/pop1.png" width="1024" height="768" alt=""/></div><div class="hit_pop1" onclick="hit_pop1()"></div><div class="hit_2"><img src="slide3/pop2.png" width="1024" height="768" alt=""/></div><div class="hit_pop2" onclick="hit_pop2()"></div><div class="hit_close1" onclick="hit_close1()"></div>';
+	content='<link rel="stylesheet" type="text/css" href="slide3/slide3.css" media="screen"/><div class="s1_1"><img src="slide3/s1_1.png" width="1024" height="768" alt=""/></div><div class="s1_2"><img src="slide3/s1_2.png"/></div><div class="s1_3"><img src="slide3/s1_3.png"/></div>';
 	break;
 	case 4:
-	content='<link rel="stylesheet" type="text/css" href="slide1/slide1.css" media="screen"/><div class="background"><img src="slide4/1.jpg" width="1024" height="768" alt=""></div><div class="hit_1"><img src="slide4/pop1.png" width="1024" height="768" alt=""/></div><div class="hit_pop1" onclick="hit_pop1()"></div><div class="hit_2"><img src="slide4/pop2.png" width="1024" height="768" alt=""/></div><div class="hit_pop2" onclick="hit_pop2()"></div><div class="hit_close1" onclick="hit_close1()"></div>';
+	content='<link rel="stylesheet" type="text/css" href="slide4/slide4.css" media="screen"/><div class="s1_1"><img src="slide4/s1_1.png" width="1024" height="768" alt=""/></div><div class="s1_2"><img src="slide4/s1_2.png"/></div>';
 	break;
 	case 5:
-	content='<link rel="stylesheet" type="text/css" href="slide1/slide1.css" media="screen"/><div class="background"><img src="slide5/1.jpg" width="1024" height="768" alt=""></div><div class="hit_1"><img src="slide5/pop1.png" width="1024" height="768" alt=""/></div><div class="hit_pop1" onclick="hit_pop1()"></div><div class="hit_2"><img src="slide5/pop2.png" width="1024" height="768" alt=""/></div><div class="hit_pop2" onclick="hit_pop2()"></div><div class="hit_close1" onclick="hit_close1()"></div>';
+	content='<link rel="stylesheet" type="text/css" href="slide5/slide5.css" media="screen"/><div class="s1_1"><img src="slide5/s1_1.png" width="1024" height="768" alt=""/></div><div class="s1_2"><img src="slide5/s1_2.png"/></div><div class="s1_3"><img src="slide5/s1_3.png"/></div>';
 	break;
 	case 6:
-	content='<link rel="stylesheet" type="text/css" href="slide1/slide1.css" media="screen"/><div class="background"><img src="slide6/1.jpg" width="1024" height="768" alt=""></div><div class="hit_1"><img src="slide6/pop1.png" width="1024" height="768" alt=""/></div><div class="hit_pop1" onclick="hit_pop1()"></div><div class="hit_2"><img src="slide6/pop2.png" width="1024" height="768" alt=""/></div><div class="hit_pop2" onclick="hit_pop2()"></div><div class="hit_close1" onclick="hit_close1()"></div>';
+	content='<link rel="stylesheet" type="text/css" href="slide6/slide6.css" media="screen"/><div class="s1_1"><img src="slide6/s1_1.png" width="1024" height="768" alt=""/></div><div class="s1_2"><img src="slide6/s1_2.png"/></div><div class="s1_3"><img src="slide6/s1_3.png"/></div><div class="s1_4"><img src="slide6/s1_4.png"/></div><div class="s1_5"><img src="slide6/s1_5.png"/></div>';
 	break;
 	case 7:
-	content='<link rel="stylesheet" type="text/css" href="slide1/slide1.css" media="screen"/><div class="background"><img src="slide7/1.jpg" width="1024" height="768" alt=""></div><div class="hit_1"><img src="slide7/pop1.png" width="1024" height="768" alt=""/></div><div class="hit_pop1" onclick="hit_pop1()"></div><div class="hit_2"><img src="slide7/pop2.png" width="1024" height="768" alt=""/></div><div class="hit_pop2" onclick="hit_pop2()"></div><div class="hit_close1" onclick="hit_close1()"></div>';
+	content='<link rel="stylesheet" type="text/css" href="slide7/slide7.css" media="screen"/><div class="s1_1"><img src="slide7/s1_1.png" width="1024" height="768" alt=""/></div><div class="s1_2"><img src="slide7/s1_2.png" width="1024" height="768" alt=""/></div><div class="hit1"><img src="slide7/hit1.png"/></div><div class="hit2"><img src="slide7/hit2.png"/></div><div class="hit3"><img src="slide7/hit3.png"/></div><div class="hit4"><img src="slide7/hit4.png"/></div><div class="hit5"><img src="slide7/hit5.png"/></div><div class="hit6"><img src="slide7/hit6.png"/></div><div class="hit7"><img src="slide7/hit7.png"/></div><div class="hit8"><img src="slide7/hit8.png"/></div><div class="hit9"><img src="slide7/hit9.png"/></div><div class="hit10"><img src="slide7/hit10.png"/></div><div id="hit1" onclick="hit1()" value="2"></div><div id="hit2" onclick="hit2()"></div><div id="hit3" onclick="hit3()"></div><div id="hit4" onclick="hit4()"></div><div id="hit5" onclick="hit5()"></div><div id="hit6" onclick="hit6()"></div><div id="hit7" onclick="hit7()"></div><div id="hit8" onclick="hit8()"></div><div id="hit9" onclick="hit9()"></div><div id="hit10" onclick="hit10()"></div><input type="text" id="text">';
 	break;
 }
 
@@ -423,64 +423,126 @@ $(document).ready(function(){
 	})
 })
 
-/*--------------------- animation javascript -----------------------*/
+//----------------Javascript Code------------------//
 
-function hit_pop1() {
-	$('.hit_1').css("display","block");
-	$('.hit_close1').css("display","block");
-	$('.hit_pop1').css("display","none");
+var a = 1;
+
+function hit1() {
+	$('.hit1').css("display","block");
+	$('#hit1').css("display","none");
+    var textBox = document.getElementById("text");
+    textBox.value = a;
+    a++;
+	if (textBox.value == 5) {
+		$('.s1_2').css("display","block");
+		$('#hit1, #hit2, #hit3, #hit4, #hit5, #hit6, #hit7, #hit8, #hit9, #hit10').css("display","none");
+	}
 }
 
-function hit_pop2() {
-	$('.hit_2').css("display","block");
-	$('.hit_close1').css("display","block");
-	$('.hit_pop2').css("display","none");
+function hit2() {
+	$('.hit2').css("display","block");
+	$('#hit2').css("display","none");
+    var textBox = document.getElementById("text");
+    textBox.value = a;
+    a++;
+	if (textBox.value == 5) {
+		$('.s1_2').css("display","block");
+		$('#hit1, #hit2, #hit3, #hit4, #hit5, #hit6, #hit7, #hit8, #hit9, #hit10').css("display","none");
+	}
 }
 
-function hit_pop3() {
-	$('.hit_3').css("display","block");
-	$('.hit_close1').css("display","block");
-	$('.hit_pop3').css("display","none");
+function hit3() {
+	$('.hit3').css("display","block");
+	$('#hit3').css("display","none");
+    var textBox = document.getElementById("text");
+    textBox.value = a;
+    a++;
+	if (textBox.value == 5) {
+		$('.s1_2').css("display","block");
+		$('#hit1, #hit2, #hit3, #hit4, #hit5, #hit6, #hit7, #hit8, #hit9, #hit10').css("display","none");
+	}
 }
 
-function hit_pop4() {
-	$('.hit_4').css("display","block");
-	$('.hit_close1').css("display","block");
-	$('.hit_pop4').css("display","none");
+function hit4() {
+	$('.hit4').css("display","block");
+	$('#hit4').css("display","none");
+    var textBox = document.getElementById("text");
+    textBox.value = a;
+    a++;
+	if (textBox.value == 5) {
+		$('.s1_2').css("display","block");
+		$('#hit1, #hit2, #hit3, #hit4, #hit5, #hit6, #hit7, #hit8, #hit9, #hit10').css("display","none");
+	}
 }
 
-function hit_pop5() {
-	$('.hit_5').css("display","block");
-	$('.hit_close1').css("display","block");
-	$('.hit_pop5').css("display","none");
+function hit5() {
+	$('.hit5').css("display","block");
+	$('#hit5').css("display","none");
+    var textBox = document.getElementById("text");
+    textBox.value = a;
+    a++;
+	if (textBox.value == 5) {
+		$('.s1_2').css("display","block");
+		$('#hit1, #hit2, #hit3, #hit4, #hit5, #hit6, #hit7, #hit8, #hit9, #hit10').css("display","none");
+	}
 }
 
-function hit_pop6() {
-	$('.hit_6').css("display","block");
-	$('.hit_close1').css("display","block");
-	$('.hit_pop6').css("display","none");
+function hit6() {
+	$('.hit6').css("display","block");
+	$('#hit6').css("display","none");
+    var textBox = document.getElementById("text");
+    textBox.value = a;
+    a++;
+	if (textBox.value == 5) {
+		$('.s1_2').css("display","block");
+		$('#hit1, #hit2, #hit3, #hit4, #hit5, #hit6, #hit7, #hit8, #hit9, #hit10').css("display","none");
+	}
 }
 
-function hit_pop7() {
-	$('.hit_7').css("display","block");
-	$('.hit_close1').css("display","block");
-	$('.hit_pop7').css("display","none");
+function hit7() {
+	$('.hit7').css("display","block");
+	$('#hit7').css("display","none");
+    var textBox = document.getElementById("text");
+    textBox.value = a;
+    a++;
+	if (textBox.value == 5) {
+		$('.s1_2').css("display","block");
+		$('#hit1, #hit2, #hit3, #hit4, #hit5, #hit6, #hit7, #hit8, #hit9, #hit10').css("display","none");
+	}
 }
 
-function hit_close1() {
-	$('.hit_1').css("display","none");
-	$('.hit_2').css("display","none");
-	$('.hit_3').css("display","none");
-	$('.hit_4').css("display","none");
-	$('.hit_5').css("display","none");
-	$('.hit_6').css("display","none");
-	$('.hit_7').css("display","none");
-	$('.hit_pop1').css("display","block");
-	$('.hit_pop2').css("display","block");
-	$('.hit_pop3').css("display","block");
-	$('.hit_pop4').css("display","block");
-	$('.hit_pop5').css("display","block");
-	$('.hit_pop6').css("display","block");
-	$('.hit_pop7').css("display","block");
-	$('.hit_close1').css("display","none");
+function hit8() {
+	$('.hit8').css("display","block");
+	$('#hit8').css("display","none");
+    var textBox = document.getElementById("text");
+    textBox.value = a;
+    a++;
+	if (textBox.value == 5) {
+		$('.s1_2').css("display","block");
+		$('#hit1, #hit2, #hit3, #hit4, #hit5, #hit6, #hit7, #hit8, #hit9, #hit10').css("display","none");
+	}
+}
+
+function hit9() {
+	$('.hit9').css("display","block");
+	$('#hit9').css("display","none");
+    var textBox = document.getElementById("text");
+    textBox.value = a;
+    a++;
+	if (textBox.value == 5) {
+		$('.s1_2').css("display","block");
+		$('#hit1, #hit2, #hit3, #hit4, #hit5, #hit6, #hit7, #hit8, #hit9, #hit10').css("display","none");
+	}
+}
+
+function hit10() {
+	$('.hit10').css("display","block");
+	$('#hit10').css("display","none");
+    var textBox = document.getElementById("text");
+    textBox.value = a;
+    a++;
+	if (textBox.value == 5) {
+		$('.s1_2').css("display","block");
+		$('#hit1, #hit2, #hit3, #hit4, #hit5, #hit6, #hit7, #hit8, #hit9, #hit10').css("display","none");
+	}
 }

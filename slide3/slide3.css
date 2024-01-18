@@ -12,11 +12,11 @@
 
 .s1_2 {
 	position: absolute;
-  left: 50px;
-  top: 154px;
-  width: 974px;
-  height: 399px;
-	animation: fadeInRight 0.5s;
+  left: 49px;
+  top: 295px;
+  width: 313px;
+  height: 334px;
+	animation: fadeInUpSmall 0.5s;
 	animation-delay: 0s;
 	animation-fill-mode: both;
 	z-index: 5;
@@ -24,11 +24,11 @@
 
 .s1_3 {
 	position: absolute;
-  left: 390px;
-  top: 587px;
-  width: 556px;
-  height: 98px;
-	animation: zoomIn 0.3s;
+  left: 382px;
+  top: 254px;
+  width: 642px;
+  height: 378px;
+	animation: fadeInRight 0.5s;
 	animation-delay: 0.3s;
 	animation-fill-mode: both;
 	z-index: 5;
@@ -58,4 +58,18 @@
 	animation-fill-mode: both;
 	display: none;
 	z-index: 5;
+}
+
+@keyframes fadeInUpSmall {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 40%, 0);
+    transform: translate3d(0, 40%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
 }
