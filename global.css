@@ -77,12 +77,12 @@ html[xmlns] .clearfix {
 	position: relative;
 	overflow: hidden;
 }
-#wrapper .left_arrow, #wrapper .right_arrow {
+/* #wrapper .left_arrow, #wrapper .right_arrow {
 	opacity: 0;
 }
 #wrapper:hover .left_arrow, #wrapper:hover .right_arrow {
 	opacity: 1;
-}
+} */
 .bottomline {
 	bottom: 40px;
 	left: 120px;
@@ -107,31 +107,28 @@ html[xmlns] .clearfix {
 }
 .slide_arrow {
 	position: relative;
-	top: 380px;
-	opacity: .8;
+	top: 260px;
+	opacity: 1;
 	display: block;
 	z-index: 999;
 	visibility: visible;
+	animation: none;
+	animation-delay: 0.5s;
+	animation-fill-mode: both;
 }
 .left_arrow {
 	float: left;
 	position: absolute;
-	left: 45px;
+	left: 30px;
 	cursor: pointer;
 	z-index: 999;
-	top: 3px;
-	width: 27px;
-	height: 52px;
 	visibility: visible;
 }
 .right_arrow {
 	float: right;
 	position: absolute;
-	right: 40px;
+	right: 30px;
 	cursor: pointer;
-	z-index: 999;
-	width: 27px;
-	height: 52px;
 	visibility: visible;
 }
 .reference {
@@ -139,7 +136,7 @@ html[xmlns] .clearfix {
 	-webkit-transition-timing-function: ease-in;
 	-webkit-transition-property: bottom;
 }
-.reference .box {
+/* .reference .box {
 	position: absolute;
 	width: 1024px;
 	margin: 0 auto;
@@ -210,7 +207,7 @@ html[xmlns] .clearfix {
 	transition: bottom 1s, -webkit-transform 2s;
 	visibility: visible;
 	z-index: 999;
-}
+} */
 .reference.active {
 	bottom: 0%;
 }
@@ -237,3 +234,11 @@ html[xmlns] .clearfix {
 	background-color: rgba(0,0,0,0.5);
 	color: #ffffff;
 }
+
+.background1 {
+	position: relative;
+	width: 1024px;
+	height: 768px;
+	z-index: 1;
+}
+	
