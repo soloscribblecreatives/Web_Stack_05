@@ -1,0 +1,15 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	background-color: #fff;
+}
+
+.bg {
+	position: relative;
+	margin-bottom: 20px;
+	border-top: 5px solid #4d86bd;
+	z-index: 10;
+}
