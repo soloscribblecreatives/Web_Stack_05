@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1490" height="600" viewBox="0 0 1490 600">
+  <!-- Keep this curve aligned with smile-orange.svg and settings.js. -->
+  <path d="M80 88 C208 610 1280 610 1408 88" fill="none" stroke="#d3d5d7" stroke-width="108" stroke-linecap="round"/>
+  <path d="M80 88 C208 610 1280 610 1408 88" fill="none" stroke="#e3e4e5" stroke-opacity=".5" stroke-width="64" stroke-linecap="round"/>
+</svg>
